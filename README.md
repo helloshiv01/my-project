@@ -12,6 +12,7 @@ Built For Screening Phase of FOSSEE 2023
 
 ## Technologies Used✨
 The folowing technologies, libraries/packages were used for making this React application:
+
 HTML
 
 CSS
@@ -24,32 +25,39 @@ Javascript
 
 **React Drei**
 
-**Three.js:**
+**Three.js**
 
 ## Features:
-Realistic 3D models: The app features a variety of high-quality 3D models of engineering components that accurately simulate real-world materials and textures.
+1)Realistic 3D models: The app features a variety of high-quality 3D models of engineering components that accurately simulate real-world materials and textures.
 
-Lighting and shadows: The app uses advanced lighting techniques to create realistic shadows and highlights, adding depth and dimensionality to the 3D models.
+2)Lighting and shadows: The app uses advanced lighting techniques to create realistic shadows and highlights, adding depth and dimensionality to the 3D models.
 
-User interaction: Users can interact with the 3D models through intuitive controls such as click, drag, and swipe, allowing them to explore the models from different angles and
+3)User interaction: Users can interact with the 3D models through intuitive controls such as click, drag, and swipe, allowing them to explore the models from different angles and
 perspectives.
 
-Customizable options: The app includes customizable options such as changing the color of specific models or adding new models, allowing for greater flexibility and customization.
+4)Customizable options: The app includes customizable options such as changing the color of specific models or adding new models, allowing for greater flexibility and customization.
 
-Web-based platform: The app is web-based, making it accessible from any device with a web browser, without the need for any additional software or downloads.
+5)Web-based platform: The app is web-based, making it accessible from any device with a web browser, without the need for any additional software or downloads.
 
-Cross-browser compatibility: The app is designed to be compatible with all modern web browsers, ensuring a consistent experience for all users.
+6)Cross-browser compatibility: The app is designed to be compatible with all modern web browsers, ensuring a consistent experience for all users.
 
-Optimized performance: The app is optimized for fast and smooth performance, even on low-end devices, ensuring a seamless user experience.
+7)Optimized performance: The app is optimized for fast and smooth performance, even on low-end devices, ensuring a seamless user experience.
 
-##Steps and Approach To Solve The Task
-1.To Display CAD files on browser make react app using npx create-react-app my-project.This will create a react app in directory.
-2.Install three.js packages using npm install three @react-three/fiber @react-three/drei.These Packages will help to display 3d objects in browser.
+## Steps and Approach To Solve The Task
+1.To Display CAD files on browser make react app using ```npx create-react-app my-project``` This will create a react app in directory.
+
+2.Install three.js packages using ```npm install three @react-three/fiber @react-three/drei``` These Packages will help to display 3d objects in browser.
+
 3.Converted the .stl/.stp/.igs/.brep file to a format that Three.js can read such as GLTF, using a CAD viewer or converter.
-4.Imported the converted GLTF file into my React application using the useGLTF hook provided by @react-three/drei
+
+4.Imported the converted GLTF file into my React application using the useGLTF hook provided by ```@react-three/drei```
+
 5.Used the useFrame hook provided by react-three-fiber to animate the 3D objects by changing their position, rotation, and scale over time.
-6.Used the OrbitControls component provided by @react-three/drei to allow users to interact with the 3D scene by rotating, zooming, and panning the camera.
-7.Used other components provided by @react-three/drei such as Environment and Sparkles to add special effects and visual enhancements to the 3D scene.
+
+6.Used the OrbitControls component provided by ```@react-three/drei``` to allow users to interact with the 3D scene by rotating, zooming, and panning the camera.
+
+7.Used other components provided by ```@react-three/drei``` such as Environment and Sparkles to add special effects and visual enhancements to the 3D scene.
+
 8.Deployed my React application to a hosting service such as Netlify.
 
 ## Deployed App😎
@@ -57,10 +65,14 @@ The app is deployed on Netlify and can be accessed using the following URL: http
 
 ## Running the App Locally
 1.Clone the repository using git clone
+
 2.Navigate to the project directory using cd
+
 3.Install the necessary dependencies using npm install
+
 4.Start the development server using npm run start
-5.Open http://localhost:3000 in your web browser to view the app
+
+5.Open ```http://localhost:3000``` in your web browser to view the app
 
 ## Contributions ⭐
 
