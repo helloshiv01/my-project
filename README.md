@@ -10,6 +10,9 @@ This is a interactive React application that showcases the usage of the React Th
 ## Motivation✨
 Built For Screening Phase of FOSSEE 2023
 
+![FOSEE](https://fossee.in/sites/all/themes/software_responsive_theme/img/logo.png)
+
+
 ## Technologies Used✨
 The folowing technologies, libraries/packages were used for making this React application:
 
