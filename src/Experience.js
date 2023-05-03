@@ -24,7 +24,27 @@ export default function Experience() {
     finplateRef.current.rotation.z += delta * 2; 
     tensionmemberRef.current.rotation.x += delta * 1; 
   });
+  
+const colors = {
+    baseplate1: "#ff0000",
+    baseplate2: "#00ff00",
+    bbsplicebolted: "#0000ff",
+    bcep: "#ffff00",
+    finplate: "#00ffff",
+    tensionmember: "#ff00ff",
+  };
 
+  
+  Object.entries(colors).forEach(([modelName, color]) => {
+    // eslint-disable-next-line no-eval
+    const model = eval(modelName); 
+    model.scene.traverse((child) => {
+      if (child.isMesh) {
+        child.material.color.set(color);
+      }
+    });
+  });
+  
   return (
     <>
       <OrbitControls />
