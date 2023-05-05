@@ -15,6 +15,9 @@ Built For Screening Phase of FOSSEE 2023
 
 https://user-images.githubusercontent.com/104753095/234863228-3bfc282e-62ba-45fd-a14e-59c83fcc0713.mp4
 
+## Colors added✨
+
+![image](https://user-images.githubusercontent.com/104753095/236509985-fc6fb053-4655-472d-b26a-6ad98be6fb9a.png)
 
 
 ## Technologies Used✨
