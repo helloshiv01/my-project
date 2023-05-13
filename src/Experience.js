@@ -1,6 +1,6 @@
 import { Sparkles, OrbitControls, Environment, useGLTF } from "@react-three/drei";
 import { useRef } from "react";
-import { useFrame } from "react-three-fiber";
+import { useFrame } from '@react-three/fiber'
 
 export default function Experience() {
   const baseplate1 = useGLTF("./base-plate-1.gltf");
