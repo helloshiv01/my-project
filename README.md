@@ -9,9 +9,10 @@ This is a interactive React application that showcases the usage of the React Th
 
 ## Motivation✨
 Built For Screening Phase of FOSSEE 2023
-
+## Navbar and Toast added✨
 ![FOSEE](https://fossee.in/sites/all/themes/software_responsive_theme/img/logo.png)
 
+![image](https://github.com/helloshiv01/my-project/assets/104753095/aae468d3-a203-4286-ab22-cc1efeb76ed9)
 
 https://user-images.githubusercontent.com/104753095/234863228-3bfc282e-62ba-45fd-a14e-59c83fcc0713.mp4
 
