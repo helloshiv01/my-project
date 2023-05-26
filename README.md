@@ -1,4 +1,5 @@
 # 📌React 3D Model Viewer
+This repo is updated here-https://github.com/helloshiv01/fossee-app
 
 This is a interactive React application that showcases the usage of the React Three Fiber and React Drei libraries to display 3D models in a web browser.Three.js is a powerful JavaScript library for creating 3D models in the browser.The project allows users to explore 3D objects and materials through an interactive and immersive experience.
 
